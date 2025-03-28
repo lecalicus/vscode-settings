@@ -3,6 +3,9 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
     "window.restoreFullscreen": true,
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "auto",
+    "window.zoomLevel": 1,
     "workbench.layoutControl.enabled": false,
     "workbench.statusBar.visible": false,
     "workbench.list.smoothScrolling": true,
@@ -17,8 +20,9 @@
     "editor.rulers": [
         80
     ],
-    "window.commandCenter": false,
-    "window.customTitleBarVisibility": "auto",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "terminal.integrated.smoothScrolling": true,
     "files.exclude": {
         "**/desktop.ini": true
